@@ -1,0 +1,158 @@
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.span1 {
+    font-size: 2rem;
+}
+
+.h-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 155, 155);
+    background-color: #1d1818;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 3rem;
+    height: 500px;
+    width: auto;
+}
+
+.proflie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: larger;
+    background-color: #3f3737;
+    color: rgb(185, 155, 155);
+    padding: 50px;
+}
+
+.mid-1 {
+    display: flex;
+    background-color: #333333;
+    color: rgb(185, 155, 155);
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1rem;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.mid-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #3f3737;
+    color: rgb(185, 155, 155);
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
+    flex-direction: column;
+}
+
+.ED {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    padding: 25px;
+    margin: 100px;
+}
+
+.text {
+    background-color: #2b2929;
+    padding: 20px;
+    font-size: large;
+}
+
+
+p {
+    padding: 10px;
+}
+
+.pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.picc {
+    height: 350px;
+    width: 550px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5%;
+    place-items: center;
+    background-color: var(--bgColor);
+}
+
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+
+.soc {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 20px;
+}
+
+.rigth {
+    text-align: right;
+}
+
+
+.project {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1d1818;
+    color: rgb(128, 99, 99);
+}
+
+.contact {
+    display: flex;
+}
+
+:root {
+    --red: rgb(14, 12, 12);
+    --bgColor: bisque;
+  }
+  
+  
+  img.picc {
+    box-shadow:
+      -50px -50px 0 -40px var(--red),
+      50px 50px 0 -40px var(--red);
+  }
+
+  @media (max-width: 1500px){
+   .project{
+    display: flex;
+    flex-direction: column;
+  }
+   .EDD{
+    display: flex;
+    flex-direction: column;
+   }
+  }
+  
+
